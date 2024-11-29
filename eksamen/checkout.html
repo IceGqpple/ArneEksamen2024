@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="css/ikoner/css/brands.css" rel="stylesheet" />
+    <link href="css/ikoner/css/solid.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <form>
+                <input type="text" placeholder="Søk..." aria-label="Søk">
+                <button type="submit" aria-label="Søk"><i class="fa fa-search"></i></button>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="produkter"></a>Produkter</li>
+                </ul>
+                <a href="index.html" id="logo">Logo</a>
+                <ul>
+                    <li><a href="katagorier">Katagorier</a></li>
+                    <li><a href="#footer-contact"> Kontakt Oss</a></li>
+                </ul>
+            </nav>
+            <ul class="symbols">
+                <li><a><i class="fa-solid fa-user"></i></a></li>
+                <li><a><i class="fa fa-heart"></i></a></li>
+                <li><a href="checkout.html"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </header>
+        <main id="checkout">
+            <h1>Kasse</h1>
+            <section id="shopping-bag">
+                <h2>1. Shoppingbagen din</h2>
+                <article class="product">
+                    <figure>
+                        <img src="css/bilder/HighHeels.jpg" alt="Product Image">
+                        <figcaption>
+                            <h3 class="product-name">Product Name</h3>
+                            <p class="product-price">Kr 1999</p>
+                            <p class="product-color">Farge: beige</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="product">
+                    <figure>
+                        <img src="css/bilder/HighHeels.jpg" alt="Product Image">
+                        <figcaption>
+                            <h3 class="product-name">Product Name</h3>
+                            <p class="product-price">Kr 1999</p>
+                            <p class="product-color">Farge: beige</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </section>
+            <section id="customer-info">
+                <h2>2. Dine opplysninger</h2>
+                <form>
+                    <label for="name">Fornavn*</label>
+                    <input id="name" class="input-field" type="text" required>
+                    <label for="surname">Etternavn*</label>
+                    <input id="surname" class="input-field" type="text" required>
+                    <label for="address">Gateadresse*</label>
+                    <input id="address" class="input-field" type="text" required>
+                    <label for="zip">Postnummer*</label>
+                    <input id="zip" class="input-field" type="text" required>
+                    <label for="city">Poststed*</label>
+                    <input id="city" class="input-field" type="text" required>
+                    <button type="submit" class="button-save">Lagre</button>
+                    <button type="button" class="button-cancel">Avbryt</button>
+                </form>
+            </section>
+            <section id="delivery-options">
+                <h2>3. Levering</h2>
+                <form>
+                    <input type="radio" id="delivery1" name="delivery" checked>
+                    <label for="delivery1">Ekspress Hjemlevering</label>
+                    <input type="radio" id="delivery2" name="delivery">
+                    <label for="delivery2">Ekspress Pakke til utleveringssted</label>
+                    <input type="radio" id="delivery3" name="delivery">
+                    <label for="delivery3">Standard Hjemlevering</label>
+                </form>
+            </section>
+            <section id="payment">
+                <h2>4. Betaling</h2>
+                <form>
+                    <label for="card-number">Kortnummer</label>
+                    <input id="card-number" class="input-field" type="text" required>
+                    <label for="expiry">Utløpsdato</label>
+                    <input id="expiry" class="input-field" type="text" placeholder="MM/ÅÅ" required>
+                    <label for="cvc">CVC/CVV</label>
+                    <input id="cvc" class="input-field" type="text" required>
+                </form>
+                <p class="total-price">Å betale inkl. mva: 1,199 Kr</p>
+                <button type="submit" class="button-complete">Fullfør kjøp</button>
+                <p class="terms">
+                    Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger.
+                </p>
+                <form class="checkbox-form">
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Ja takk! Send nyhetsbrev til meg.</label>
+                    <input type="checkbox" id="promotions">
+                    <label for="promotions">Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.</label>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section id="footer-logo-section">
+                <h2 id="footer-logo">Logo</h2>
+                <p id="footer-description">
+                    En liten ingress eller slagord som beskriver virksomheten.
+                </p>
+            </section>
+            <section id="footer-contact">
+                <h3>Kontakt</h3>
+                <ul>
+                    <li><span class="fa fa-location-dot"></span> Adresse: B R A Veien 4, 1757 Halden</li>
+                    <li><span class="fa fa-phone"></span> Telefon: 66 60 80 00</li>
+                    <li><span class="fa fa-envelope"></span> Epost: <a href="mailto:kontakt@eksempel.no">kontakt@eksempel.no</a></li>
+                    <li><span class="fa fa-clock"></span> Åpningstider: Man-Fre 9:00-16:00</li>
+                </ul>
+            </section>
+            <section id="footer-links">
+                <h3>Snarveier</h3>
+                <ul>
+                    <li><a href="#">Hjem</a></li>
+                    <li><a href="#">Produkter</a></li>
+                    <li><a href="#">Kategorier</a></li>
+                </ul>
+            </section>
+
+            <section id="footer-social">
+                <h3>Sosiale medier</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/"><span class="fa-brands fa-instagram"></span> Instagram</a></li>
+                    <li><a href="https://www.facebook.com/"><span class="fa-brands fa-facebook-f"></span> Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/"><span class="fa-brands fa-linkedin"></span> LinkedIn</a></li>
+                    <li><a href="https://no.pinterest.com/"><span class="fa-brands fa-pinterest-p"></span> Pinterest</a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

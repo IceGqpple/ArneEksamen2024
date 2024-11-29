@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="css/ikoner/css/brands.css" rel="stylesheet" />
+    <link href="css/ikoner/css/solid.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <form>
+                <input type="text" placeholder="Søk..." aria-label="Søk">
+                <button type="submit" aria-label="Søk"><i class="fa fa-search"></i></button>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#popular-products">Produkter</a></li>
+                </ul>
+                <a href="index.html" id="logo">Logo</a>
+                <ul>
+                    <li><a href="#popular-categories">Katagorier</a></li>
+                    <li><a href="#footer-contact"> Kontakt Oss</a></li>
+                </ul>
+            </nav>
+            <ul class="symbols">
+                <li><a><i class="fa-solid fa-user"></i></a></li>
+                <li><a><i class="fa fa-heart"></i></a></li>
+                <li><a href="checkout.html"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </header>
+        <main>
+            <p class="breadcrumb"><a href="index.html">Forside</a> <i class="fa-solid fa-chevron-right"></i> <a href="#">Kategori</a> <i class="fa-solid fa-chevron-right"></i> <a>Produktnavn</a></p>
+            <section class="product-page">
+                <aside class="product-gallery">
+                    <nav class="thumbnail-images">
+                        <img src="css/bilder/HighHeels.jpg" alt="Product Image 1">
+                        <img src="css/bilder/HighHeels.jpg" alt="Product Image 2">
+                        <img src="css/bilder/HighHeels.jpg" alt="Product Image 3">
+                    </nav>
+                    <figure class="main-product-image">
+                        <img src="css/bilder/HighHeels.jpg" alt="Main Product Image">
+                    </figure>
+                </aside>
+    
+                <section class="product-details">
+                    <h2>Produktnavn</h2>
+                    <p class="brand"><a href="#">MERKENAVN</a></p>
+                    <p class="price">5 195 kr inkl. mva.</p>
+                    <p class="color">Farge: <span class="color-value">beige</span></p>
+    
+                    <label for="size" class="size-label">Velg størrelse:</label>
+                    <select id="size" class="size-select">
+                        <option value="">Velg størrelse</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+    
+                    <section class="actions">
+                        <button class="add-to-cart">Legg i handlekurv</button>
+                        <button class="wishlist"><i class="far fa-heart"></i></button>
+                    </section>
+    
+                    <details class="details-section">
+                        <summary>Materiale og vedlikehold <i class="fas fa-plus"></i></summary>
+                        <ul>
+                            <li>Overmateriale: 95% viskose, 5% elastan</li>
+                            <li>Materiale ermer: 100% polyester</li>
+                            <li>Materiale: Jersey</li>
+                        </ul>
+                    </details>
+    
+                    <details class="details-section">
+                        <summary>Produktdetaljer <i class="fas fa-plus"></i></summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks, and seasonal special events.</p>
+                    </details>
+    
+                    <details class="details-section">
+                        <summary>Størrelsestabell <i class="fas fa-plus"></i></summary>
+                        <table class="size-table">
+                            <thead>
+                                <tr>
+                                    <th>EU</th>
+                                    <th>INT</th>
+                                    <th>BRYSTVIDDE</th>
+                                    <th>LIVVIDDE</th>
+                                    <th>HOFTEMÅL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>32</td>
+                                    <td>XXS</td>
+                                    <td>76</td>
+                                    <td>63</td>
+                                    <td>85</td>
+                                </tr>
+                                <tr>
+                                    <td>34</td>
+                                    <td>XS</td>
+                                    <td>80</td>
+                                    <td>66</td>
+                                    <td>89</td>
+                                </tr>
+                                <tr>
+                                    <td>36</td>
+                                    <td>S</td>
+                                    <td>84</td>
+                                    <td>69</td>
+                                    <td>93</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+    
+                    <section class="reviews">
+                        <h3>Anmeldelser</h3>
+                        <p>★★★★☆ <span class="review-count">32</span></p>
+                    </section>
+                </section>
+            </section>
+    
+            <section class="related-products">
+                <h3>Lignende produkter</h3>
+                <section class="related-products-scroll">
+                    <figure class="related-product-card">
+                        <img src="css/bilder/HighHeels.jpg" alt="Related Product 1">
+                        <figcaption>Product Name - Kr 1999</figcaption>
+                        <p>★★★★☆ (842 Reviews)</p>
+                    </figure>
+                    <figure class="related-product-card">
+                        <img src="css/bilder/HighHeels.jpg" alt="Related Product 2">
+                        <figcaption>Product Name - Kr 1999</figcaption>
+                        <p>★★★★☆ (842 Reviews)</p>
+                    </figure>
+                    <figure class="related-product-card">
+                        <img src="css/bilder/HighHeels.jpg" alt="Related Product 3">
+                        <figcaption>Product Name - Kr 1999</figcaption>
+                        <p>★★★★☆ (842 Reviews)</p>
+                    </figure>
+                    <figure class="related-product-card">
+                        <img src="css/bilder/HighHeels.jpg" alt="Related Product 4">
+                        <figcaption>Product Name - Kr 1999</figcaption>
+                        <p>★★★★☆ (842 Reviews)</p>
+                    </figure>
+                    <figure class="related-product-card">
+                        <img src="css/bilder/HighHeels.jpg" alt="Related Product 5">
+                        <figcaption>Product Name - Kr 1999</figcaption>
+                        <p>★★★★☆ (842 Reviews)</p>
+                    </figure>
+                    <figure class="related-product-card">
+                        <img src="css/bilder/HighHeels.jpg" alt="Related Product 6">
+                        <figcaption>Product Name - Kr 1999</figcaption>
+                        <p>★★★★☆ (842 Reviews)</p>
+                    </figure>
+                </section>
+                <a href="#" class="view-more-link">Se flere lignende produkter <i class="fas fa-arrow-right"></i></a>
+            </section>
+        </main>
+        <footer>
+            <section id="footer-logo-section">
+                <h2 id="footer-logo">Logo</h2>
+                <p id="footer-description">
+                    En liten ingress eller slagord som beskriver virksomheten.
+                </p>
+            </section>
+            
+            <section id="footer-contact">
+                <h3>Kontakt</h3>
+                <ul>
+                    <li><span class="fa fa-location-dot"></span> Adresse: B R A Veien 4, 1757 Halden</li>
+                    <li><span class="fa fa-phone"></span> Telefon: 66 60 80 00</li>
+                    <li><span class="fa fa-envelope"></span> Epost: <a href="mailto:kontakt@eksempel.no">kontakt@eksempel.no</a></li>
+                    <li><span class="fa fa-clock"></span> Åpningstider: Man-Fre 9:00-16:00</li>
+                </ul>
+            </section>
+            
+            <section id="footer-links">
+                <h3>Snarveier</h3>
+                <ul>
+                    <li><a href="#">Hjem</a></li>
+                    <li><a href="#">Produkter</a></li>
+                    <li><a href="#">Kategorier</a></li>
+                </ul>
+            </section>
+            
+            <section id="footer-social">
+                <h3>Sosiale medier</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/"><span class="fa-brands fa-instagram"></span> Instagram</a></li>
+                    <li><a href="https://www.facebook.com/"><span class="fa-brands fa-facebook-f"></span> Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/"><span class="fa-brands fa-linkedin"></span> LinkedIn</a></li>
+                    <li><a href="https://no.pinterest.com/"><span class="fa-brands fa-pinterest-p"></span> Pinterest</a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="css/ikoner/css/brands.css" rel="stylesheet" />
+    <link href="css/ikoner/css/solid.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <form>
+                <input type="text" placeholder="Søk..." aria-label="Søk">
+                <button type="submit" aria-label="Søk"><i class="fa fa-search"></i></button>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#popular-products">Produkter</a></li>
+                </ul>
+                <a href="index.html" id="logo">Logo</a>
+                <ul>
+                    <li><a href="#popular-categories">Katagorier</a></li>
+                    <li><a href="#footer-contact"> Kontakt Oss</a></li>
+                </ul>
+            </nav>
+            <ul class="symbols">
+                <li><a><i class="fa-solid fa-user"></i></a></li>
+                <li><a><i class="fa fa-heart"></i></a></li>
+                <li><a href="checkout.html"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </header>
+        <main>
+            <section class="banner-container">
+                <figure class="card">
+                  <img src="css/bilder/StoneBeach.jpg" alt="Image 1">
+                  <!--https://fastly.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s -->
+                  <figcaption>
+                    <h3>Et harum quidem rerum facilis est et expedita distinctio</h3>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi...</p>
+                    <a href="#" class="button">Les mer</a>
+                  </figcaption>
+                </figure>
+                <figure class="card">
+                  <img src="css/bilder/studying.jpg" alt="Image 2">
+                  <!--https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I -->
+                  <figcaption>
+                    <h3>Et harum quidem rerum facilis est et expedita distinctio</h3>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi...</p>
+                    <a href="#" class="button">Les mer</a>
+                  </figcaption>
+                </figure>
+                <figure class="card">
+                  <img src="css/bilder/swamp.jpg" alt="Image 3">
+                  <!--https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ -->
+                  <figcaption>
+                    <h3>Et harum quidem rerum facilis est et expedita distinctio</h3>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi...</p>
+                    <a href="#" class="button">Les mer</a>
+                  </figcaption>
+                </figure>
+            </section>
+            <section id="popular-products">
+                <h2>Våre mest populære produkter</h2>
+                <p>Explore the products our customers love the most.</p>
+                <nav class="filter-buttons">
+                  <button type="button">New Product</button>
+                  <button type="button">Best Sellers</button>
+                  <button type="button">Sale</button>
+                </nav>
+                <ul class="product-list">
+                    <li class="product-item">
+                        <figure>
+                            <img src="css/bilder/HighHeels.jpg" alt="Produkt 1">
+                            <!--https://fastly.picsum.photos/id/21/3008/2008.jpg?hmac=T8DSVNvP-QldCew7WD4jj_S3mWwxZPqdF0CNPksSko4 -->
+                            <figcaption>
+                                <h3 class="product-name"><a href="product.html">Produkt 1</a></h3>
+                                <p class="product-price">NOK 299</p>
+                                <p class="stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                    <span class="star">&#9734;</span>
+                                </p>
+                                <p class="reviews-count">120 anmeldelser</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="product-item">
+                        <figure>
+                            <img src="css/bilder/HighHeels.jpg" alt="Produkt 2">
+                            <figcaption>
+                                <h3 class="product-name"><a href="product.html">Produkt 2</a></h3>
+                                <p class="product-price">NOK 499</p>
+                                <p class="stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </p>
+                                <p class="reviews-count">250 anmeldelser</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="product-item">
+                        <figure>
+                            <img src="css/bilder/HighHeels.jpg" alt="Produkt 3">
+                            <figcaption>
+                                <h3 class="product-name"><a href="product.html">Produkt 3</a></h3>
+                                <p class="product-price">NOK 499</p>
+                                <p class="stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </p>
+                                <p class="reviews-count">250 anmeldelser</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="product-item">
+                        <figure>
+                            <img src="css/bilder/HighHeels.jpg" alt="Produkt 4">
+                            <figcaption>
+                                <h3 class="product-name"><a href="product.html">Produkt 4</a></h3>
+                                <p class="product-price">NOK 499</p>
+                                <p class="stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </p>
+                                <p class="reviews-count">250 anmeldelser</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="product-item">
+                        <figure>
+                            <img src="css/bilder/HighHeels.jpg" alt="Produkt 5">
+                            <figcaption>
+                                <h3 class="product-name"><a href="product.html">Produkt 5</a></h3>
+                                <p class="product-price">NOK 499</p>
+                                <p class="stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </p>
+                                <p class="reviews-count">250 anmeldelser</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="product-item">
+                        <figure>
+                            <img src="css/bilder/HighHeels.jpg" alt="Produkt 6">
+                            <figcaption>
+                                <h3 class="product-name"><a href="product.html">Produkt 6</a></h3>
+                                <p class="product-price">NOK 499</p>
+                                <p class="stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </p>
+                                <p class="reviews-count">250 anmeldelser</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section id="popular-categories">
+                <h2>Våre med populære kategorier</h2>
+                <p>Oppdag det beste av det beste</p>
+                <ul class="category-grid">
+                    <li class="category-item category-1">Category 1</li>
+                    <li class="category-item category-2">Category 2</li>
+                    <li class="category-item category-3">Category 3</li>
+                    <li class="category-item category-4">Category 4</li>
+                    <li class="category-item category-5">Category 5</li>
+                </ul>
+            </section>
+            <section id="anmeldelser">
+                <h2>Anmeldelser</h2>
+                <ul id="review-list">
+                    <li>
+                        <figure>
+                            <img src="https://via.placeholder.com/150" alt="Reviewer 1">
+                            <figcaption>
+                                <h3>Rober Labrador</h3>
+                                <span class="stars">★★★★★</span>
+                                <p>
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://via.placeholder.com/150" alt="Reviewer 2">
+                            <figcaption>
+                                <h3>Rober Labrador</h3>
+                                <span class="stars">★★★★☆</span>
+                                <p>
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://via.placeholder.com/150" alt="Reviewer 3">
+                            <figcaption>
+                                <h3>Rober Labrador</h3>
+                                <span class="stars">★★★☆☆</span>
+                                <p>
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://via.placeholder.com/150" alt="Reviewer 4">
+                            <figcaption>
+                                <h3>Rober Labrador</h3>
+                                <span class="stars">★★★★★</span>
+                                <p>
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>            
+        </main>
+        <footer>
+            <section id="footer-logo-section">
+                <h2 id="footer-logo">Logo</h2>
+                <p id="footer-description">
+                    En liten ingress eller slagord som beskriver virksomheten.
+                </p>
+            </section>
+            <section id="footer-contact">
+                <h3>Kontakt</h3>
+                <ul>
+                    <li><span class="fa fa-location-dot"></span> Adresse: B R A Veien 4, 1757 Halden</li>
+                    <li><span class="fa fa-phone"></span> Telefon: 66 60 80 00</li>
+                    <li><span class="fa fa-envelope"></span> Epost: <a href="mailto:kontakt@eksempel.no">kontakt@eksempel.no</a></li>
+                    <li><span class="fa fa-clock"></span> Åpningstider: Man-Fre 9:00-16:00</li>
+                </ul>
+            </section>
+            <section id="footer-links">
+                <h3>Snarveier</h3>
+                <ul>
+                    <li><a href="#">Hjem</a></li>
+                    <li><a href="#">Produkter</a></li>
+                    <li><a href="#">Kategorier</a></li>
+                </ul>
+            </section>
+            <section id="footer-social">
+                <h3>Sosiale medier</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/"><span class="fa-brands fa-instagram"></span></a></li>
+                    <li><a href="https://www.facebook.com/"><span class="fa-brands fa-facebook-f"></span></a></li>
+                    <li><a href="https://www.linkedin.com/"><span class="fa-brands fa-linkedin"></span></a></li>
+                    <li><a href="https://no.pinterest.com/"><span class="fa-brands fa-pinterest-p"></span></a></li>
+                </ul>
+            </section>
+        </footer>              
+    </div>
+</body>
+</html>
