@@ -1,2 +1,2 @@
-# ArneEksamen2024
+# Eksamen2024
  
